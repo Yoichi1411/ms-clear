@@ -1,0 +1,210 @@
+/*----- fee1-wrapper -----*/
+#blog-title{
+    width:100%;
+    height:270px;
+    overflow:hidden;
+    display:table;
+    margin:0 0 0rem 0;
+    background:#009688;
+    color:#fff;
+}
+
+#blog-title #blog-title-inner{
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+#blog-title #title{
+    font-size:20px;
+    font-weight:700;
+    line-height:1;
+    color:#fff;
+    letter-spacing:0.15em;
+}
+
+#blog-description{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#blog-description span{
+    color: red;
+}
+    
+.fee1-menu{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #734c2f;
+}
+
+.home{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.home:hover{
+    opacity: 0.5;
+}
+
+.allow{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.salon-introduction{
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width:580px){
+    #blog-title #title{
+        font-size:17px;
+    }
+    
+    #blog-description{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/*----- fee2-wrapper -----*/
+.fee2-wrapper-title{
+    color: #334472;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.fee2-wrapper-title span{
+    color: red;
+}
+
+.fee2-wrapper-subtitle{
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.fee2-wrapper-subtitle span{
+    color: red;
+}
+
+@media(max-width:490px){
+    .fee2-wrapper-title{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .fee2-wrapper-subtitle{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/*----- fee3-wrapper -----*/
+.fee3-wrapper{
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.fee3-menus1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.fee3-menu-title{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.fee3-menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.fee3-items{
+    width: 100%;
+}
+
+.fee3-menu-item-title1{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #00d2db;
+    border-radius: 15px;
+}
+
+.fee3-img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.fee3-menu-item-title2{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #ffa11c;
+    border-radius: 15px;
+}
+
+.fee3-menu-item-title3{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #ff2e9c;
+    border-radius: 15px;
+}
+
+.fee3-menu-item-title4{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #a75cff;
+    border-radius: 15px;
+}
+
+.fee3-menu-item-title5{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #00adc6;
+    border-radius: 15px;
+}
+
+@media(max-width:790px){
+    .fee3-menu{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+/*----- LINE wrapper -----*/
+.line-wrapper{
+    background-color: #734c2f34;
+}
