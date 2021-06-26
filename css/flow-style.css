@@ -1,0 +1,200 @@
+/*----- flow1-wrapper -----*/
+#blog-title{
+    width:100%;
+    height:270px;
+    overflow:hidden;
+    display:table;
+    margin:0 0 0rem 0;
+    background:#009688;
+    color:#fff;
+}
+
+#blog-title #blog-title-inner{
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+#blog-title #title{
+    font-size:20px;
+    font-weight:700;
+    line-height:1;
+    color:#fff;
+    letter-spacing:0.15em;
+}
+
+#blog-description{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#blog-description span{
+    color: red;
+}
+    
+.flow1-menu{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #734c2f;
+}
+
+.home{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.home:hover{
+    opacity: 0.5;
+}
+
+.allow{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.flow{
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width:580px){
+    #blog-title #title{
+        font-size:17px;
+    }
+    
+    #blog-description{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/*----- flow2-wrapper -----*/
+.flow2-wrapper{
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+    width: 100%;
+}
+
+.flow2-wrapper-title{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 15px;
+    background: linear-gradient(transparent 60%, #3344728c 0%);
+}
+
+.flow2-wrapper-title span{
+    color: red;
+}
+
+.flow2-wrapper-subtitle{
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+@media(max-width:490px){
+    .flow2-wrapper-title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .flow2-wrapper-subtitle{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/*----- flow3-wrapper -----*/
+.flow3-wrapper{
+    padding: 0px 20px 50px 20px;
+    width: 100%;
+}
+
+.flow3-flow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.flow3-img{
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.flow3-texts{
+    width: 100%;
+}
+
+.flow3-step{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 3px 30px;
+    border-radius: 20px;
+    background-color: #9a8158;
+    text-align: center;
+}
+
+.flow3-title{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px 0;
+    position: relative;
+    padding: 0.3em;
+}
+
+.flow3-title:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background: repeating-linear-gradient(-45deg, #9a8158, #9a8158 2px, white 2px, white 4px);
+}
+
+.flow3-text{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+@media(max-width:770px){
+    .flow3-flow{
+        grid-template-columns: 1fr;
+    }
+
+    .flow3-img{
+        grid-row-start: 1;
+    }
+
+    .flow3-texts{
+        grid-row-start: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*----- LINE wrapper -----*/
+.line-wrapper{
+    background-color: #734c2f34;
+}
