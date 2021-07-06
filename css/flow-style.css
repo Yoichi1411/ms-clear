@@ -82,7 +82,9 @@
 }
 
 .flow2-wrapper-title{
-    display: inline-block;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
     font-size: 25px;
     margin-bottom: 15px;
     background: linear-gradient(transparent 60%, #3344728c 0%);
@@ -104,6 +106,7 @@
     .flow2-wrapper-title{
         font-size: 20px;
         margin-bottom: 15px;
+        width: 330px;
     }
 
     .flow2-wrapper-subtitle{
